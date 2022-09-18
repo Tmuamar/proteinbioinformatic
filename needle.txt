@@ -1,0 +1,58 @@
+########################################
+# Program: needle
+# Rundate: Sat 17 Sep 2022 18:56:21
+# Commandline: needle
+#    -outfile needle.txt
+#    -asequence PF02932-1.txt
+#    -bsequence PF02932-2.txt
+#    -gapopen 10
+#    -gapextend 0.5
+# Align_format: srspair
+# Report_file: needle.txt
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: ACHA2_CHICK/247-519
+# 2: ACHA2_RAT/249-502
+# Matrix: EBLOSUM62
+# Gap_penalty: 10.0
+# Extend_penalty: 0.5
+#
+# Length: 273
+# Identity:     178/273 (65.2%)
+# Similarity:   199/273 (72.9%)
+# Gaps:          19/273 ( 7.0%)
+# Score: 843.0
+# 
+#
+#=======================================
+
+ACHA2_CHICK/2      1 LIIPCLLISCLTVLVFYLPSDCGEKITLCISVLLSLTVFLLLITEIIPST     50
+                     ||||||||||||||||||||:|||||||||||||||||||||||||||||
+ACHA2_RAT/249      1 LIIPCLLISCLTVLVFYLPSECGEKITLCISVLLSLTVFLLLITEIIPST     50
+
+ACHA2_CHICK/2     51 SLVIPLIGEYLLFTMIFVTLSIIITVFVLNVHHRSPSTHTMPHWVRSFFL    100
+                     ||||||||||||||||||||||:||||||||||||||||.||:|||...|
+ACHA2_RAT/249     51 SLVIPLIGEYLLFTMIFVTLSIVITVFVLNVHHRSPSTHNMPNWVRVALL    100
+
+ACHA2_CHICK/2    101 GFIPRWLFMKRPPLLLPAEGTTGQYDPPGTRLSTSRCWLETDVDDKWEEE    150
+                     |.:||||.|.||  |.|.|    .:..|..:||.|..||||::|   ..|
+ACHA2_RAT/249    101 GRVPRWLMMNRP--LPPME----LHGSPDLKLSPSYHWLETNMD---AGE    141
+
+ACHA2_CHICK/2    151 EEEEEEEEEEEEEEKAYPSRVPSGGSQGTQCHYSCERQAGKASGGPAPQV    200
+                     .||.|||||||:|.....:.:|.........|.....:|.:    |..:.
+ACHA2_RAT/249    142 REETEEEEEEEDENICVCAGLPDSSMGVLYGHGGLHLRAME----PETKT    187
+
+ACHA2_CHICK/2    201 PLKGEEVGSDQGLTLSPSILRALEGVQYIADHLRAEDADFSVKEDWKYVA    250
+                     |.:..|:      .|||.|.:|||||.||||.||:||||.||||||||||
+ACHA2_RAT/249    188 PSQASEI------LLSPQIQKALEGVHYIADRLRSEDADSSVKEDWKYVA    231
+
+ACHA2_CHICK/2    251 MVIDRIFLWMFIIVCLLGTVGLF    273
+                     ||:||||||:|||||.|||:|||
+ACHA2_RAT/249    232 MVVDRIFLWLFIIVCFLGTIGLF    254
+
+
+#---------------------------------------
+#---------------------------------------
